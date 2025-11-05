@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 56px;
+        }
+        .hero-section {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            padding: 100px 0;
+        }
+        .section-padding {
+            padding: 100px 0;
+        }
+        .skill-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        .project-img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .contact-icon {
+            font-size: 2rem;
+            margin-right: 10px;
+        }
+        footer {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">ASIIKA JAFARI JOSEPH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Hello, ASIIKA JAFARI JOSPEH</h1>
+            <p class="lead fs-3">Web Developer & Designer</p>
+            <p class="my-4">Creating beautiful and functional websites with modern technologies</p>
+            <a href="#projects" class="btn btn-light btn-lg me-2">View My Work</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="mb-4">About Me</h2>
+                    <p>Hello! I'm a passionate web developer with expertise in creating responsive and user-friendly websites. With a background in computer science and design, I bridge the gap between functionality and aesthetics.</p>
+                    <p>My approach combines technical proficiency with creative problem-solving to deliver digital experiences that engage users and achieve business goals.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities.</p>
+                    <a href="#" class="btn btn-primary mt-3">Download Resume</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="asika.png.jpg" alt="Profile Photo" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">My Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="skill-icon text-primary">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+                    <h4>Frontend Development</h4>
+                    <p>HTML, CSS, JavaScript, Bootstrap, React</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="skill-icon text-success">
+                        <i class="bi bi-server"></i>
+                    </div>
+                    <h4>Backend Development</h4>
+                    <p>Node.js, Express, MongoDB, SQL</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="skill-icon text-info">
+                        <i class="bi bi-phone"></i>
+                    </div>
+                    <h4>Responsive Design</h4>
+                    <p>Mobile-first approach, cross-browser compatibility</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5">My Projects</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="ec.jpg" class="card-img-top project-img" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce Website</h5>
+                            <p class="card-text">A fully responsive e-commerce platform with payment integration and inventory management.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80" class="card-img-top project-img" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Financial Dashboard</h5>
+                            <p class="card-text">Interactive dashboard for visualizing financial data with real-time updates and analytics.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80" class="card-img-top project-img" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Task Management App</h5>
+                            <p class="card-text">Collaborative task management application with drag-and-drop interface and notifications.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Get In Touch</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <h4>Contact Information</h4>
+                    <p class="mb-4">Feel free to reach out to me through any of the following channels:</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-envelope contact-icon text-primary"></i>
+                        <div>
+                            <h6>Email</h6>
+                            <p class="mb-0">asiikajafarijoseph@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-geo-alt contact-icon text-primary"></i>
+                        <div>
+                            <h6>Location</h6>
+                            <p class="mb-0">KOBOKO, UGANDA</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-linkedin contact-icon text-primary"></i>
+                        <div>
+                            <h6>LinkedIn</h6>
+                            <p class="mb-0">linkedin.com/in/yourname</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-github contact-icon text-primary"></i>
+                        <div>
+                            <h6>GitHub</h6>
+                            <p class="mb-0">ASIIKA1234</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2023 ASIIKA JAFARI JOSEPH@. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
